@@ -28,9 +28,11 @@ After do
   $driver.quit
 end
 
-
-$default_profile = Selenium::WebDriver::Firefox::Profile.from_name 'default'
-$default_profile.add_extension("/Users/victoriarezepova/Library/Application Support/Firefox/Profiles/xld9q81b.default/extensions/{7CEA821D-3DAB-4238-B424-BF7324531750}.xpi")
+#
+ $default_profile = Selenium::WebDriver::Firefox::Profile.from_name 'default'
+$default_profile.add_extension("C:/Users/i15-3000/AppData/Roaming/Mozilla/Firefox/Profiles/cf9zcc50.default/extensions/{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}.xpi")
+#
+# $default_profile.add_extension("/Users/victoriarezepova/Library/Application Support/Firefox/Profiles/xld9q81b.default/extensions/{7CEA821D-3DAB-4238-B424-BF7324531750}.xpi")
 
 
 
